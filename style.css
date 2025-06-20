@@ -1,0 +1,68 @@
+.menu-item-wrapper {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    height: 100%; /* Important for equal height in a grid */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.equal-height-col {
+    display: flex;
+}
+
+
+.menu-item-wrapper img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+ 
+
+/* Style the form container */
+form {
+    background-color: #fff9f5; /* Soft orange-tinted background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Input & textarea styling */
+form .form-control {
+    border: 2px solid #f8d8c2;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form .form-control:focus {
+    border-color: #fd7e14;
+    box-shadow: 0 0 5px rgba(253, 126, 20, 0.25);
+}
+
+/* Button styling */
+form .btn-primary {
+    background-color: #fcbd15;
+    border-color: #fd7e14;
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+
+form .btn-primary:hover {
+    background-color: #fcbd15;
+    border-color: #ffffff;
+}
+
+/* Space between form fields */
+form .input-group,
+form .form-control,
+form textarea {
+    margin-bottom: 15px;
+}
